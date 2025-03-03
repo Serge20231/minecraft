@@ -1,0 +1,41 @@
+panels:
+  example:
+    Power:
+      metial: REDSTONE_TORCH
+      lore: This is the power button!
+    Gates:
+      metail: OAK_FENCE_GATE
+      lore: This is the gates button!
+    Dispatch:
+      metail: MINECART
+      lore: This is the dispatch button!
+    safety-bar:
+      metail: IRON_TRAPDOOR
+      lore: This is the safety-bar button!
+    Commands:
+      Power: /power_command
+      Gates: /gates_command
+      Dispatch: /dispatch_command
+      safety-bar: /safetybar_command
+  aeg:
+    Power:
+      material: REDSTONE_TORCH
+      lore: This is the power button!
+    Gates:
+      material: OAK_FENCE_GATE
+      lore: This is the gates button!
+    Dispatch:
+      material: MINECART
+      lore: This is the dispatch button!
+    safety-bar:
+      material: IRON_TRAPDOOR
+      lore: This is the safety-bar button!
+    status:
+      material: IRON_TRAPDOOR
+      lore: This is the status button!
+    Commands:
+      Power: /power_command
+      Gates: /gates_command
+      Dispatch: /dispatch_command
+      safety-bar: /safetybar_command
+      status: /status_command

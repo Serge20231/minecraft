@@ -1,0 +1,125 @@
+#                                                                                                           - O X #
+#   RealisticMC Command Tutorial                                                                                  #
+#   /rmcadd <effect-name> <world> | You have added this world with the effect name to the enabled-worlds!         #
+#   /rmcremove <effect-name> <world> | You have removed this world with the effect name from the enabled-worlds!  #
+#                                                                                                                 #
+#   Effects:                                                                                                      #
+#   TNT-Explosions                                                                                                #
+#   Falling-Blocks                                                                                                #
+#   RealisticTrees                                                                                                #
+#   Blood-Effects                                                                                                 #
+#   Tornado                                                                                                       #
+#   Fall-Effect                                                                                                   #
+#   Small-ArmorStand/Armed-ArmorStand                                                                             #
+#   Dead-Trees                                                                                                    #
+#   Balloons                                                                                                      # 
+#   Eat-Effect                                                                                                    # 
+#   Realistic-Grow                                                                                                # 
+#                                                                                                                 #
+#   Minecraft Sounds: https://www.spigotmc.org/wiki/cc-sounds-list/                                               # 
+# ------------------------------------------------ Configuration -------------------------------------------------#                         
+TNT-Explosions-Worlds:                         
+- world                                   
+Falling-Blocks-Worlds:                         
+- world                                       
+RealisticTrees-Worlds:                         
+- world
+Blood-Effects-Worlds:                          
+- world   
+Tornado-Worlds:
+- world 
+Dead-Trees-Worlds:
+- world  
+Fall-Effect-Worlds:
+- world  
+Armed-ArmorStand-Worlds:
+- world
+Small-ArmorStand-Worlds:
+- world
+Balloons-Worlds:
+- world   
+Eat-Effect-Worlds:
+- world          
+Realistic-Grow-Worlds:
+- world                            
+TNT-Explosions: true
+Falling-Blocks: false
+RealisticTrees: true
+Blood-Effects: true
+Tornado-Effect: true
+Small-Tornado: true
+Dead-Trees: true
+Fall-Effect: true
+Balloons: true
+Small-Armorstand: false
+Armed-Armorstand: true
+Eat-Effect: true
+Realistic-Grow: true
+TNT-Explosions-WorldGuard: false
+Fall-Effect-Sound: true
+Tornado-Block: STAINED_GLASS
+Tornado-DataValue: 7
+reload-command: '&7[&eRealisticMC&7] &aYou have reloaded the configuration file!'
+add-world: '&7[&eRealisticMC&7] &aYou have added world %world% to enabled-worlds!' 
+remove-world: '&7[&eRealisticMC&7] &cYou have removed %world% from enabled-worlds!'
+error-remove-world: '&7[&eRealisticMC&7] &cThe world %world% does not exist in the enabled worlds'
+no-permission: '&7[&eRealisticMC&7] &cYou don''t have the permission for this command!'
+already-added-world: '&7[&eRealisticMC&7] &cYou have already added this world to the enabled-worlds!'
+need-effect-name: '&7[&eRealisticMC&7] &cYou need to enter a effect name to this command!'
+need-world-name: '&7[&eRealisticMC&7] &cYou need to enter a world name to this command!'
+spawned-tornado: '&7[&eRealisticMC&7] &aYou have spawned a tornado to your location!'
+no-location-tornado: '&7[&eRealisticMC&7] &cYou need to enter x, y, z to execute.'
+balloon-despawned: '&7[&eRealisticMC&7] &cYou have unequipped your current balloon!'
+configuration-updated: '&7[&eRealisticMC&7] &aYou have succesful updated the value!'
+Help-List:
+- '&e&l&m---------------------------------------------'
+- '&7'
+- '&e&lRealisticMC'
+- '&7Version: 4.4r'
+- '&7'
+- '&e&l* &7/rmcadd | &8To add the world to the enabled-worlds.'
+- '&e&l* &7/rmcremove | &8To remove the world from enabled-worlds.'
+- '&e&l* &7/rmctornado <spawn> [x, y, z] | &8To spawn a tornado.'
+- '&e&l* &7/rmcballoon [Red, Green, Blue, Yellow, Purple] | &8Equip a balloon.'
+- '&e&l* &7/rmcballoon stop | &8To despawn your selected balloon.'
+- '&e&l* &7/rmcopen [BalloonGUI] | &8To open the Balloon Selector.'
+- '&e&l* &7/rmcconfig | &8To configure the plugin with a GUI.'
+- '&e&l* &7/rmcreload | &8To reload the configuration file.'
+- '&e&l* &7/rmchelp | &8To show the help list with all the commands.'
+- '&7'
+- '&c[] Required &7| &8<> Optional'
+- '&7'
+- '&e&l&m---------------------------------------------'
+open-gui-error: '&7[&eRealisticMC&7] &cThis GUI cannot opened because its doesn''t exist.'
+BalloonGUI-Name: 'Balloons Selector'
+balloon-spawned: '&7[&eRealisticMC&7] &aYou have spawned a %type% balloon to your location!'
+balloon-name: '&7[&eRealisticMC&7] &cYou need to enter a balloon name to this command!'
+balloon-type-red: 'Red'
+balloon-type-blue: 'Blue'
+balloon-type-yellow: 'Yellow'
+balloon-type-green: 'Green'
+balloon-type-purple: 'Purple'
+balloon-type-unequip: 'Unequip'
+BalloonGUI-Lore:
+- '&8Balloon Selector'
+- ''
+- '&7In this menu you can select'
+- '&7your own balloons. Click on a'
+- '&7balloon to equip!'
+- ''
+- '&eClick to equip!'
+BalloonGUI-Unequip-Lore:
+- '&8Balloon Selector'
+- ''
+- '&7In this menu you can select'
+- '&7your own balloons. Click on this'
+- '&7item to unequip!'
+- ''
+- '&eClick to unequip!'
+Spawn-Tornado-Sounds-1: ENTITY_WITHER_DEATH
+Spawn-Tornado-Sounds-2: ENTITY_WITHER_HURT
+Dead-Trees-Sounds: ENTITY_CHICKEN_EGG
+Balloon-Update-Time: 20
+Eat-Effect-Particles:
+LARGE-CLOUDS: 1
+SPELL-PARTICLES: true

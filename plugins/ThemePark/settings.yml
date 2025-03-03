@@ -1,0 +1,22 @@
+version: 1.2
+
+cmd: "themepark"
+ridecount_total_type: MONTHLY
+
+update:
+  check: true
+  download: true
+
+mysql:
+  enabled: false
+  host: 'localhost'
+  port: 3306
+  name: 'database'
+  username: 'root'
+  password: ''
+  url: 'jdbc:mysql://%host%:%port%/%database%?useSSL=false'
+
+sign:
+  status:
+    name: '[ThemePark]'
+    title: '&f[&6&lThemePark&f]'

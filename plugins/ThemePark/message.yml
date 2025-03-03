@@ -1,0 +1,26 @@
+prefix: '&6&lThemePark &f➢&r'
+
+menu:
+  previous: '&6&L« Previous'
+  page: '&6Page &f'
+  next: '&6&LNext »'
+
+ridecount:
+  add: '{prefix} &aYou have ridden attraction: &f%NAME% &6%AMOUNT%x &afor a total
+    of &6%TOTAL%x'
+
+attraction:
+  changed:
+    hover: '&6Click to Warp'
+    CONSTRUCTION: '{prefix} &fAttraction: &r{name} &fis now &7Under Construction'
+    OPEN: '{prefix} &fAttraction: [TP]&r{name}[/TP] &fhas been &aOpened'
+    CLOSED: '{prefix} &fAttraction: &r{name} &fhas been &4Closed'
+    MAINTENANCE: '{prefix} &fAttraction: &r{name} &fis now in &6Maintenance'
+    MALFUNCTION: '{prefix} &fAttraction: &r{name} &fhas been closed due to a &5Malfunction'
+    ACTIVE: '{prefix} &fShow: &r{name} &fis now &aActive'
+    INACTIVE: '{prefix} &fShow: &r{name} &fis now &4In Active'
+  teleport:
+    status: '{prefix} &4It''s not possible to teleport to &r{name} &4because it''s
+      {status}'
+    success: '{prefix} &ayou have been teleported to the attraction: &r{name}'
+version: '1.0'
