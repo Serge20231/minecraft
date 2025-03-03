@@ -1,0 +1,25 @@
+playername:
+  value: '%%playername%%'
+  forPlayers:
+    serge2001114:
+      value: serge2001114
+      ticker: NONE
+      tickerInterval: 1
+  ticker: NONE
+  tickerInterval: 1
+test:
+  value: 'This is a test message being ticked from right to left. '
+  ticker: LEFT
+  tickerInterval: 3
+sign:
+  value: This is a regular message you can set and is updated only once.
+  ticker: NONE
+  tickerInterval: 1
+tps:
+  value: 100%
+date:
+  value: 2025.03.03
+  ticker: NONE
+  tickerInterval: 1
+time:
+  value: '13:48:05'

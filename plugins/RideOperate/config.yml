@@ -1,0 +1,11 @@
+messages:
+  #comming soon
+  enabled: true
+
+  nopermission: "You don't have permission to use this!"
+  allexist: "Panel already exists!"
+  successfullycreated: "Successfully created panel: %panelName%"
+  successfullydeleted: "Successfully deleted panel: %panelName%"
+
+webserver:
+  port: 8080

@@ -1,0 +1,60 @@
+#> Below are the localization nodes set for plugin 'SignLink'.
+#> For colors, use the & character followed up by 0 - F
+#> Need help with this file? Please visit:
+#> https://wiki.traincarts.net/p/BKCommonLib/Localization
+commands:
+  variable set:
+    description: Sets the currently editing variable's value
+    usage: /variable set [value]
+  variable setticker:
+    description: Sets a ticker mode for a variable to animate the text
+    usage: |
+      /variable setticker [left/right/none] [interval]
+      /variable setticker [interval] [left/right/none]
+      /variable setticker [left/right/none]
+      /variable setticker [interval]
+  variable delete:
+    description: Deletes the variable if it is not used
+    usage: |-
+      /variable delete - Deletes it if not used
+      /variable delete force - Deletes it even if used
+  variable deleteunused:
+    description: Deletes all unused (not on sign) variables
+    usage: /variable deleteunused
+  variable edit:
+    description: Changes the variable you are editing
+    usage: /variable edit [varname]
+  variable:
+    description: Handles SignLink variables
+    usage: |
+      /variable list - Lists all variables
+      /variable deleteall - Deletes all variables
+      /variable deleteunused - Deletes all unused variables
+      /variable edit - Edit a variable
+      /variable forplayers - Edits the variable for given players
+      /variable set - Set variable value
+      /variable get - Gets variable value
+      /variable setticker - Sets a text anim. ticker
+      /variable delete - Deletes this variable (if unused)
+  reloadsignlink:
+    description: Reloads the variable values in values.yml
+    usage: /reloadsignlink
+  togglesignupdate:
+    description: Turns sign updating on or off
+    usage: /togglesignsupdate
+  variable deleteall:
+    description: Deletes all variables
+    usage: /variable delete
+  variable forplayers:
+    description: |
+      Changes for which players the variable is edited
+      Only the set players will see the changes you do on the variable
+    usage: |
+      /variable forplayers [p1] [p...] - For the players specified
+      /variable forplayers - Defaults back to all players
+  variable get:
+    description: Gets the currently editing variable's value
+    usage: /variable get
+  variable list:
+    description: Lists all variables you can edit
+    usage: /variable list

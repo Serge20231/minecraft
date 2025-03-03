@@ -1,0 +1,22 @@
+# Time format used when representing time in the %time% default variable
+timeFormat: H:mm:ss
+# Date format used when representing time in the %date% default variable
+dateFormat: yyyy.MM.dd
+# Time zone used for the %time% and %date% default variables
+# Use 'system' for the system default (JVM) time zone
+# A list of timezone id's can be found here: https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/
+timeZone: system
+# Whether all signs on the server are routinely checked for changes in text
+# When they suddenly display a variable, this variable is swapped out
+# Enabling this may have a negative effect on server tick rate
+discoverSignChanges: false
+# Sets the settings for the PlaceholderAPI plugin. Only applies when detected.
+PlaceholderAPI:
+  # Sets whether PlaceholderAPI variables are handled by SignLink
+  enabled: true
+  # Whether PlaceholderAPI variables are detected and displayed on signs
+  # When disabled, only SignLink variables are made available within PlaceholderAPI
+  showOnSigns: true
+  # Names of PlaceholderAPI variables that will be automatically updated every tick
+  # Note that this induces a potential overhead for some plugin-defined variables
+  autoUpdateVariables: []
