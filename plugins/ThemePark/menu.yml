@@ -1,0 +1,46 @@
+version: 1.1
+
+menu:
+  item:
+    enabled: true
+    material: NETHER_STAR
+    data: 0
+    name: '&6Themepark'
+    slot: 4
+    clear: true
+    worlds:
+    - world_nether
+    - world_the_end
+  main:
+    enabled: true
+    size: 27
+    title: '&6&lThemePark'
+  status:
+    title: '&6&lAttraction Status'
+
+items:
+  '0':
+    slot: 11
+    amount: 1
+    name: '&6&lStore'
+    data: 0
+    material: GOLD_INGOT
+    action: JSON_MESSAGE
+    message: '[{"text":"Click ","color":"gold"},{"text":"HERE","bold":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://www.iobyte.nl"},"hoverEvent":{"action":"show_text","contents":{"text":"Click
+      to go to store","color":"gold"}}},{"text":" to go to the store","color":"gold"}]'
+  '1':
+    slot: 13
+    amount: 1
+    name: '&6&lAttraction Status'
+    data: 0
+    material: MINECART
+    action: STATUS_MENU
+    lore: '&fSee what''s open'
+  '2':
+    slot: 15
+    amount: 1
+    name: '&6&lAudio'
+    data: 0
+    material: JUKEBOX
+    action: COMMAND
+    command: /audio

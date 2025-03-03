@@ -1,0 +1,28 @@
+#> Below are the default permissions set for plugin 'SignLink'.
+#> These permissions are ignored if the permission is set for a group or player.
+#> Use the defaults as a base to keep the permissions file small
+#> Need help with this file? Please visit:
+#> https://wiki.traincarts.net/p/BKCommonLib/PermissionDefaults
+signlink:
+  addsign:
+    default: op
+    description: Allows you to build signs containing variables
+  toggleupdate:
+    default: op
+    description: Allows you to set if signs are being updated or not
+  reload:
+    default: op
+    description: Allows you to reload the values.yml
+  saveall:
+    default: op
+    description: Allows you to forcibly re-save the entire values.yml
+  edit:
+    *:
+      default: op
+      description: Allows you to edit all variables
+  globaldelete:
+    default: op
+    description: Allows you to delete all variables from the server
+  refreshpapi:
+    default: op
+    description: Allows you to refresh/reload all PlaceholderAPI placeholder variables
